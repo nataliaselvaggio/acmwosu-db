@@ -107,6 +107,7 @@ const AttendanceFormCard = (props) => {
           <Form.Text className="field-error">
               {failureMessage}
           </Form.Text>
+          <Form.Label className="resume-db"><a href="https://forms.gle/2wzq4ZHZ6sWPYMmo7" target="_blank" rel="noopener noreferrer">Click Here To Add Your Resume To Our Database</a></Form.Label><br/>
           <Button variant="primary" type="submit">
             Submit
           </Button>
@@ -130,6 +131,9 @@ const AttendanceFormCard = (props) => {
         color: red;
         display: block;
         margin-bottom: 5px;
+      }
+      .resume-db {
+        color: #4513C0;
       }
     `}</style>
   </div>
