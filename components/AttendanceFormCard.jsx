@@ -107,7 +107,7 @@ const AttendanceFormCard = (props) => {
           <Form.Text className="field-error">
               {failureMessage}
           </Form.Text>
-          <Form.Label className="resume-db"><a href="https://forms.gle/EcmG9MBufdAJUGpNA" target="_blank" rel="noopener noreferrer">Click Here To Add Your Resume To Our Database</a></Form.Label><br/>
+          <Form.Label className="resume-db"><a href="https://drive.google.com/drive/folders/1Nc1kvVmTYGP5yRZGou0BpX0qPjV7CxIBoRL3D9QZAZxQZjAFNi6-pt366JwkmEHpa0WrKTqy?usp=drive_link" target="_blank" rel="noopener noreferrer">Click Here To Add Your Resume To Our Database</a></Form.Label><br/>
           <Button variant="primary" type="submit">
             Submit
           </Button>
